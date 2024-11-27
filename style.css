@@ -1,12 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC:wght@300;400;700&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC:wght@200..900&display=swap');
 body    {
-    color:#5e3507;
-    background-color: #ffe8a58e;
+  color:#472D1B;
+  background-color: #A4A676
+    ;
     font-size: 20PX; ;
     font-family: "LXGW WenKai Mono TC", monospace;
     font-weight: 300;
     font-style: normal;
 }
+header,footer {
+  color:#9b7a63;
+  background-color: #DFE09F}
+  header a{
+    color:#9b7a63;
+    text-decoration: NONE;
+  }
+  header a:HOVER{
+    text-decoration: underline;
+  }
+  header  li{ 
+    font-weight: 700;
+   display:inline;
+   margin-right: 1.2rem;
+}
+head img:hover{ 
+  opacity: 0.5;
+
+
 h1,h2,h3,h4,h5,h6,UL {
     font-family: "Noto Serif TC", serif;
   font-optical-sizing: auto;

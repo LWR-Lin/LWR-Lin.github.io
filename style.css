@@ -1,16 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC:wght@300;400;700&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC:wght@200..900&display=swap');
+/*預設空白5px*/
+*{
+   padding: 5px;
+   margin: 5px;
+}
+
+
+html{border: #75533d 1px solid;}
 body    {
   color:#472D1B;
-  background-color: #A4A676
-    ;
+  background-color: #A4A676;
     font-size: 20PX; ;
     font-family: "LXGW WenKai Mono TC", monospace;
     font-weight: 300;
     font-style: normal;
+    border: #909260 1px solid;
 }
 header,footer {
   color:#9b7a63;
-  background-color: #DFE09F}
+  background-color: #DFE09F;
+  border-top: #c28c6a 1px solid;
+ border-left: #c2957a 1px solid;
+border-bottom: #75533d 5px solid ;
+border-right: #2b2019 6px solid ;
+border-radius: 17px;
+height: 110px; 
+}
+
+header ul{
+  position: absolute;
+  top: 25px;
+  right: 15px;
+  line-height: 100px;
+}
+header h1{
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  line-height: 100px;
+  background-image: url(images/logo.png);
+  background-size: 100px 100px ;
+  background-position: center;
+  background-repeat:no-repeat;
+  text-indent: 100px;
+  width: 100px;
+  height: 100px;
+  white-space: nowrap;
+}
+header h2{
+  position: absolute;
+  top: 100px;
+  left: 170px;
+  font-family: "Noto Serif TC", monospace;
+  font-weight: 400;
+  font-size: 1.2rem
+}
+
   header a{
     color:#9b7a63;
     text-decoration: NONE;

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.0/dist/css/uikit.min.css" />
 </head>
 <body>
-    <header class="uk-background-muted uk-padding-small">
+    <header class="uk-background-muted uk-padding-small" uk-sticky="offset: 0;">
         <div class="uk-container uk-flex uk-flex-middle uk-flex-between">
             <!-- Logo and Site Name -->
             <div class="uk-flex uk-flex-middle">
@@ -22,9 +22,9 @@
             <nav>
                 <ul class="uk-navbar-nav uk-visible@m">
                     <li><a href="index.html">首頁</a></li>
-                    <li><a href="#">關於我們</a></li>
+                    <li><a href="regarding.html">關於我們</a></li>
                     <li><a href="BASE.html">產品列表</a></li>
-                    <li><a href="#">聯絡我們</a></li>
+                    <li><a href="contact 02.html">聯絡我們</a></li>
                     <li><a href="images/backuc/index.html">舊網站</a></li>
                 </ul>
                 
@@ -41,11 +41,11 @@
         <div class="uk-offcanvas-bar">
             <button class="uk-offcanvas-close" type="button" uk-close></button>
             <ul class="uk-nav uk-nav-default">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="backuc/index.html">舊網站</a></li>
+                <li><a href="index.html">首頁</a></li>
+                    <li><a href="regarding.html">關於我們</a></li>
+                    <li><a href="BASE.html">產品列表</a></li>
+                    <li><a href="contact 02.html">聯絡我們</a></li>
+                    <li><a href="images/backuc/index.html">舊網站</a></li>
             </ul>
 
             </ul>
@@ -60,19 +60,20 @@
                 <div>
                     <div class="uk-card uk-card-default uk-card-body">
                         <h3 class="uk-card-title">主打碳烤美味</h3>
-                        <p>綠崗以獨特的碳烤工藝，將簡單的三明治幻化為高雅的美味藝術品。炭火烘焙的香氣與多層次的豐富配料交織，從福源花生醬到海鹽牛五花，將每一口都變成令人心動的味覺旅程。</p>
+                        <p class="uk-dropcap">
+                            綠崗以獨特的碳烤工藝，將簡單的三明治幻化為高雅的美味藝術品。炭火烘焙的香氣與多層次的豐富配料交織，從福源花生醬到海鹽牛五花，將每一口都變成令人心動的味覺旅程。</p>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body">
                         <h3 class="uk-card-title">快速出餐效率高</h3>
-                        <p>靈感來自“小魔女宅急便”，綠崗將速度與品質完美結合。無論您是匆忙的上班族還是悠閒的旅人，都能在瞬間享受到精心製作的碳烤美味，體驗一場溫暖且高效的服務。</p>
+                        <p class="uk-dropcap">靈感來自“小魔女宅急便”，綠崗將速度與品質完美結合。無論您是匆忙的上班族還是悠閒的旅人，都能在瞬間享受到精心製作的碳烤美味，體驗一場溫暖且高效的服務。</p>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body">
                         <h3 class="uk-card-title">文青風格內部設計</h3>
-                        <p>店內擺設精緻，陽光灑進窗邊的桌椅，搭配小清新的擺飾和綠植，營造出輕鬆愜意的氛圍，非常適合拍照打卡。
+                        <p class="uk-dropcap">店內擺設精緻，陽光灑進窗邊的桌椅，搭配小清新的擺飾和綠植，營造出輕鬆愜意的氛圍，非常適合拍照打卡。
                         </p>
                     </div>
                 </div>
@@ -132,6 +133,8 @@
         </div>
     </section>
 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2362.177840092204!2d120.55227138794858!3d24.067141363348206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3469388b27b5530f%3A0x63f4c7392c7bbfef!2z5bu65ZyL56eR5oqA5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1736317901640!5m2!1szh-TW!2stw" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     <!-- Footer Section -->
     <footer class="uk-section uk-section-small uk-section-muted">
         <div class="uk-container">
@@ -167,7 +170,7 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.0/dist/js/uikit-icons.min.js"></script>
 
     <!-- 頁尾區段 -->
-    <footer class="uk-section uk-section-secondary uk-light">
+    <footer class="uk-section uk-section-secondary uk-light" >
         <div class="uk-container">
             <div class="uk-grid-match uk-child-width-1-4@m uk-child-width-1-2@s" uk-grid>
                 <!-- 第一欄：網站資訊 -->
